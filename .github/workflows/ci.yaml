@@ -3,9 +3,7 @@ on:
   push:
     branches:
       - main
-
 jobs:
-
   test:
     runs-on: ubuntu-latest
     steps:
@@ -19,6 +17,8 @@ jobs:
 
   create_github_release:
     runs-on: ubuntu-latest
+   permissions: 
+    contents: write 
     needs: test
     if: github.event_name == 'push'
     steps:
@@ -43,3 +43,5 @@ jobs:
           keycloak-theme.jar
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
