@@ -17,10 +17,10 @@ jobs:
 
   create_github_release:
     runs-on: ubuntu-latest
-   permissions: 
-    contents: write 
     needs: test
     if: github.event_name == 'push'
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
