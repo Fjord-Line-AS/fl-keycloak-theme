@@ -1,0 +1,23 @@
+
+
+.my-font {
+	font-family: 'Work Sans';
+}
+
+.my-root-class {
+	background:#C31230;
+}
+
+.my-root-class body {
+	background: #C31230;
+}
+
+
+.kcButtonClass {
+	background: rgb(252, 186, 48);
+	border: none;
+	border-radius: 5px;
+	color: black;
+	font-weight: 600;
+}
+
