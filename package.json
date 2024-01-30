@@ -1,11 +1,9 @@
 {
-  "name": "keycloakify-starter",
-  "homepage": "https://starter.keycloakify.dev",
-  "version": "5.2.0",
-  "description": "A starter/demo project for keycloakify",
+  "name": "fl-keycloak-theme",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codegouvfr/keycloakify-starter.git"
+    "url": "git://github.com/Fjord-Line-AS/fl-keycloak-theme.git"
   },
   "type": "module",
   "scripts": {
@@ -17,24 +15,16 @@
     "build-storybook": "storybook build"
   },
   "keycloakify": {
-    "themeName": "keycloakify-starter",
-    "extraThemeProperties": [
-      "foo=bar"
-    ]
+    "themeName": "fl-keycloak-theme"
   },
-  "author": "u/garronej",
   "license": "MIT",
   "keywords": [],
   "dependencies": {
     "evt": "^2.5.7",
     "keycloakify": "^9.2.0",
-    "oidc-spa": "^4.0.0",
-    "powerhooks": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "strip-ansi": "^7.1.0",
-    "tsafe": "^1.6.6",
-    "zod": "^3.22.4"
+    "strip-ansi": "^7.1.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.10",
@@ -45,18 +35,18 @@
     "@storybook/react": "^7.6.10",
     "@storybook/react-vite": "^7.6.10",
     "@storybook/test": "^7.6.10",
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.6.10",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
     "vite-plugin-commonjs": "^0.10.1"
   }
 }

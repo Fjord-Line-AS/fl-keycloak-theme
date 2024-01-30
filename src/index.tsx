@@ -12,7 +12,6 @@ createRoot(document.getElementById("root")!).render(
                 if( kcLoginThemeContext !== undefined ){
                     return <KcLoginThemeApp kcContext={kcLoginThemeContext} />;
                 }
-
                 throw new Error(
                   "This app is a Keycloak theme" +
                   "It isn't meant to be deployed outside of Keycloak"
