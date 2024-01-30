@@ -63,9 +63,6 @@ jobs:
           keycloak-theme.jar
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      permissions:
-        contents: write  
-
   docker:
     runs-on: ubuntu-latest
     needs: 
